@@ -4,6 +4,7 @@ import 'package:codetech/view/Home.dart';
 import 'package:codetech/view/Settings.dart';
 import 'package:codetech/view/Splash.dart';
 import 'package:codetech/view/clubs.dart';
+import 'package:codetech/view/departments.dart';
 import 'package:codetech/view/maps.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -18,7 +19,7 @@ void main() {
 
   runApp(GetMaterialApp(
     debugShowCheckedModeBanner: false,
-    home: Clubs(),
+    home: Splash(),
   ));
 }
 

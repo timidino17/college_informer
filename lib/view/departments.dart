@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 
-class Clubs extends StatelessWidget {
-  const Clubs({Key? key}) : super(key: key);
+class Departments extends StatelessWidget {
+  const Departments({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.orange,
-        title: Text('Clubs'),
+        title: Text('Departments'),
         centerTitle: true,
       ),
       body: Container(
@@ -24,9 +24,9 @@ class Clubs extends StatelessWidget {
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  Image.asset('assets/images/nrityam.jpeg', height: 50, width: 50,),
-                  Text('Nrityam Club', style: TextStyle(fontSize: 25, color: Colors.white),),
-                  Text('NIT Raipur Dance Club', style: TextStyle(fontSize: 22),)
+                  Image.asset('assets/images/splash_logo.png', height: 50, width: 50,),
+                  Text('Computer Science and Engineering', style: TextStyle(fontSize: 25, color: Colors.white),),
+                  Text('National Institute of Technology Raipur', style: TextStyle(fontSize: 22),)
                 ],
               ),
             ),
@@ -40,9 +40,9 @@ class Clubs extends StatelessWidget {
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  Image.asset('assets/images/abhinay.png', height: 50, width: 50,),
-                  Text('Abhinay Club', style: TextStyle(fontSize: 25, color: Colors.white),),
-                  Text('NIT Raipur Drama Club', style: TextStyle(fontSize: 22),)
+                  Image.asset('assets/images/splash_logo.png', height: 50, width: 50,),
+                  Text('Information Technology', style: TextStyle(fontSize: 25, color: Colors.white),),
+                  Text('National Institute of Technology Raipur', style: TextStyle(fontSize: 22),)
                 ],
               ),
             ),
@@ -56,9 +56,9 @@ class Clubs extends StatelessWidget {
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  Image.asset('assets/images/download.png', height: 50, width: 50,),
-                  Text('Click Club', style: TextStyle(fontSize: 25, color: Colors.white),),
-                  Text('NIT Raipur Photo Lovers Club', style: TextStyle(fontSize: 22),)
+                  Image.asset('assets/images/splash_logo.png', height: 50, width: 50,),
+                  Text('Electronics and Communication', style: TextStyle(fontSize: 25, color: Colors.white),),
+                  Text('National Institute of Technology Raipur', style: TextStyle(fontSize: 22),)
                 ],
               ),
             ),
@@ -72,9 +72,9 @@ class Clubs extends StatelessWidget {
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  Image.asset('assets/images/robotics.png', height: 50, width: 50,),
-                  Text('Robotics Club', style: TextStyle(fontSize: 25, color: Colors.white),),
-                  Text('NIT Raipur Robots Lover Club', style: TextStyle(fontSize: 22),)
+                  Image.asset('assets/images/splash_logo.png', height: 50, width: 50,),
+                  Text('Electrical Engineering', style: TextStyle(fontSize: 25, color: Colors.white),),
+                  Text('National Institute of Technology Raipur', style: TextStyle(fontSize: 22),)
                 ],
               ),
             ),
@@ -88,9 +88,9 @@ class Clubs extends StatelessWidget {
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  Image.asset('assets/images/sahyog.jpeg', height: 50, width: 50,),
-                  Text('Sahyog Club', style: TextStyle(fontSize: 25, color: Colors.white),),
-                  Text('NIT Raipur Helping Club', style: TextStyle(fontSize: 22),)
+                  Image.asset('assets/images/splash_logo.png', height: 50, width: 50,),
+                  Text('Mechanical Engineering', style: TextStyle(fontSize: 25, color: Colors.white),),
+                  Text('National Institute of Technology Raipur', style: TextStyle(fontSize: 22),)
                 ],
               ),
             ),

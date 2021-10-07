@@ -1,4 +1,7 @@
+import 'package:codetech/view/AcademicContactView.dart';
+import 'package:codetech/view/departments.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 
 class MenuPage extends StatefulWidget {
   const MenuPage({Key? key}) : super(key: key);
@@ -86,6 +89,7 @@ class _MenuPageState extends State<MenuPage> {
                   ],
                 ),
               ),
+              onTap: () => Get.to(() => Departments()),
             ),
             SizedBox(height: 30,),
             GestureDetector(
@@ -126,6 +130,7 @@ class _MenuPageState extends State<MenuPage> {
                   ],
                 ),
               ),
+              onTap: () => Get.to(() => AcademicView()),
             ),
             SizedBox(height: 30,),
             GestureDetector(

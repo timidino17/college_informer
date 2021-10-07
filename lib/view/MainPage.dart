@@ -1,5 +1,6 @@
 import 'package:codetech/view/AcademicCalender.dart';
 import 'package:codetech/view/Settings.dart';
+import 'package:codetech/view/clubs.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -87,7 +88,7 @@ class _MainPageState extends State<MainPage> {
                 SizedBox(width: 20,),
                   ActionChip(
                     label: Text('Clubs', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18),),
-                    onPressed: (){},
+                    onPressed: (){Get.to(() => Clubs());},
                     avatar: Icon(Icons.computer_rounded, size: 30, color: Colors.blueAccent,),
                     backgroundColor: Colors.white,
                   ),
