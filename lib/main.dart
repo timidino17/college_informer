@@ -18,7 +18,7 @@ void main() {
 
   runApp(GetMaterialApp(
     debugShowCheckedModeBanner: false,
-    home: Clubs(),
+    home: Splash(),
   ));
 }
 
